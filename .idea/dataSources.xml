@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Oracle - @FIN-SELEMENT7.AUS.EDU" uuid="821f36ca-bb4d-4370-9248-f447853a04f5">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//FIN-SELEMENT7.AUS.EDU:1521/ORCL2</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,1171 @@
+<dataSource name="Oracle - @FIN-SELEMENT7.AUS.EDU">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="2.6">
+    <schema id="1" name="ANGULARJS_CHQSEL">
+      <object-id>96</object-id>
+      <created-timestamp>2016-05-03.11:05:13</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <visible>1</visible>
+      <introspection-timestamp>2016-07-31.12:16:05</introspection-timestamp>
+    </schema>
+    <schema id="2" name="PUBLIC">
+      <object-id>1</object-id>
+    </schema>
+    <schema id="3" name="SYS" />
+    <schema id="4" name="SYSTEM">
+      <object-id>5</object-id>
+    </schema>
+    <schema id="5" name="OUTLN">
+      <object-id>9</object-id>
+    </schema>
+    <schema id="6" name="DIP">
+      <object-id>14</object-id>
+    </schema>
+    <schema id="7" name="ORACLE_OCM">
+      <object-id>21</object-id>
+    </schema>
+    <schema id="8" name="DBSNMP">
+      <object-id>30</object-id>
+    </schema>
+    <schema id="9" name="APPQOSSYS">
+      <object-id>31</object-id>
+    </schema>
+    <schema id="10" name="WMSYS">
+      <object-id>32</object-id>
+    </schema>
+    <schema id="11" name="EXFSYS">
+      <object-id>42</object-id>
+    </schema>
+    <schema id="12" name="CTXSYS">
+      <object-id>43</object-id>
+    </schema>
+    <schema id="13" name="XDB">
+      <object-id>45</object-id>
+    </schema>
+    <schema id="14" name="ANONYMOUS">
+      <object-id>46</object-id>
+    </schema>
+    <schema id="15" name="ORDSYS">
+      <object-id>53</object-id>
+    </schema>
+    <schema id="16" name="ORDDATA">
+      <object-id>54</object-id>
+    </schema>
+    <schema id="17" name="ORDPLUGINS">
+      <object-id>55</object-id>
+    </schema>
+    <schema id="18" name="SI_INFORMTN_SCHEMA">
+      <object-id>56</object-id>
+    </schema>
+    <schema id="19" name="MDSYS">
+      <object-id>57</object-id>
+    </schema>
+    <schema id="20" name="OLAPSYS">
+      <object-id>61</object-id>
+    </schema>
+    <schema id="21" name="MDDATA">
+      <object-id>65</object-id>
+    </schema>
+    <schema id="22" name="SPATIAL_WFS_ADMIN_USR">
+      <object-id>67</object-id>
+    </schema>
+    <schema id="23" name="SPATIAL_CSW_ADMIN_USR">
+      <object-id>70</object-id>
+    </schema>
+    <schema id="24" name="SYSMAN">
+      <object-id>72</object-id>
+    </schema>
+    <schema id="25" name="MGMT_VIEW">
+      <object-id>74</object-id>
+    </schema>
+    <schema id="26" name="FLOWS_FILES">
+      <object-id>75</object-id>
+    </schema>
+    <schema id="27" name="APEX_PUBLIC_USER">
+      <object-id>76</object-id>
+    </schema>
+    <schema id="28" name="APEX_030200">
+      <object-id>78</object-id>
+    </schema>
+    <schema id="29" name="OWBSYS">
+      <object-id>79</object-id>
+    </schema>
+    <schema id="30" name="OWBSYS_AUDIT">
+      <object-id>83</object-id>
+    </schema>
+    <schema id="31" name="SCOTT">
+      <object-id>84</object-id>
+    </schema>
+    <schema id="32" name="HR">
+      <object-id>85</object-id>
+    </schema>
+    <schema id="33" name="OE">
+      <object-id>86</object-id>
+    </schema>
+    <schema id="34" name="IX">
+      <object-id>87</object-id>
+    </schema>
+    <schema id="35" name="SH">
+      <object-id>88</object-id>
+    </schema>
+    <schema id="36" name="PM">
+      <object-id>89</object-id>
+    </schema>
+    <schema id="37" name="BI">
+      <object-id>90</object-id>
+    </schema>
+    <schema id="38" name="AUS_PAYROLL">
+      <object-id>91</object-id>
+    </schema>
+    <schema id="39" name="MYGRAILS">
+      <object-id>94</object-id>
+    </schema>
+    <schema id="40" name="MYGRAILS_INVENTORY">
+      <object-id>95</object-id>
+    </schema>
+    <schema id="41" name="XS$NULL">
+      <object-id>2147483638</object-id>
+    </schema>
+    <sequence id="42" parent="1" name="HIBERNATE_SEQUENCE">
+      <object-id>140219</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <table id="43" parent="1" name="ACCOUNT">
+      <object-id>140220</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="44" parent="1" name="BLOG">
+      <object-id>140222</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="45" parent="1" name="BLOGENTRY">
+      <object-id>140224</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="46" parent="1" name="FABINVH">
+      <object-id>132754</object-id>
+      <comment>Invoice Header Table</comment>
+      <created-timestamp>2016-05-03.11:05:13</created-timestamp>
+      <modified-timestamp>2016-05-03.11:05:14</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="47" parent="1" name="FATCKDT">
+      <object-id>132759</object-id>
+      <comment>Batch Check/Invoice Detail Temporary Table</comment>
+      <created-timestamp>2016-05-03.11:50:43</created-timestamp>
+      <modified-timestamp>2016-05-03.11:50:43</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="48" parent="1" name="FATCKIN">
+      <object-id>140226</object-id>
+      <comment>Chq Header Table</comment>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="49" parent="1" name="FYBCHKS">
+      <object-id>133420</object-id>
+      <comment>Invoice Modified Cheque Selection Table</comment>
+      <created-timestamp>2016-05-11.08:40:06</created-timestamp>
+      <modified-timestamp>2016-05-11.12:34:46</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="50" parent="1" name="FYBCHKSENTRY">
+      <object-id>140228</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <routine id="51" parent="1" name="CHECKFORMULADDRESS">
+      <object-id>133423</object-id>
+      <created-timestamp>2016-05-11.12:58:58</created-timestamp>
+      <modified-timestamp>2016-05-12.09:50:40</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <invalid>1</invalid>
+    </routine>
+    <routine id="52" parent="1" name="CHECKFORNEGATIVENEW">
+      <object-id>133321</object-id>
+      <created-timestamp>2016-05-10.11:52:37</created-timestamp>
+      <modified-timestamp>2016-05-12.09:31:38</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <invalid>1</invalid>
+    </routine>
+    <routine id="53" parent="1" name="PROCESS_CUSTOM_CHEQUES_TEST">
+      <object-id>133225</object-id>
+      <created-timestamp>2016-05-09.14:39:31</created-timestamp>
+      <modified-timestamp>2016-05-12.09:31:38</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <invalid>1</invalid>
+    </routine>
+    <routine id="54" parent="1" name="UPDATEFATCKIN">
+      <object-id>133516</object-id>
+      <created-timestamp>2016-05-12.09:50:48</created-timestamp>
+      <modified-timestamp>2016-05-12.11:32:24</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <invalid>1</invalid>
+    </routine>
+    <routine id="55" parent="1" name="UPDATEFYBCHKS">
+      <object-id>133422</object-id>
+      <created-timestamp>2016-05-11.10:26:45</created-timestamp>
+      <modified-timestamp>2016-05-12.09:31:38</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <invalid>1</invalid>
+    </routine>
+    <object-type id="56" parent="1" name="IDTYPE">
+      <object-id>133317</object-id>
+      <created-timestamp>2016-05-10.10:37:43</created-timestamp>
+      <modified-timestamp>2016-05-10.10:37:44</modified-timestamp>
+      <final>1</final>
+      <instantiable>1</instantiable>
+    </object-type>
+    <collection-type id="57" parent="1" name="ARRAY_TABLE">
+      <object-id>132764</object-id>
+      <created-timestamp>2016-05-03.12:25:30</created-timestamp>
+      <modified-timestamp>2016-05-10.12:07:03</modified-timestamp>
+      <element-type>VARCHAR2(350)|0</element-type>
+    </collection-type>
+    <collection-type id="58" parent="1" name="IDTABLETYPE">
+      <object-id>133318</object-id>
+      <created-timestamp>2016-05-10.10:38:05</created-timestamp>
+      <modified-timestamp>2016-05-10.10:38:06</modified-timestamp>
+      <element-type>IDTYPE|0</element-type>
+    </collection-type>
+    <package id="59" parent="1" name="ORACLEDB_TESTPACK">
+      <object-id>132771</object-id>
+      <created-timestamp>2016-05-04.11:08:33</created-timestamp>
+      <modified-timestamp>2016-05-04.11:08:34</modified-timestamp>
+    </package>
+    <package id="60" parent="1" name="POPULATEMYTABLE">
+      <object-id>133319</object-id>
+      <created-timestamp>2016-05-10.10:42:44</created-timestamp>
+      <modified-timestamp>2016-05-10.12:26:50</modified-timestamp>
+    </package>
+    <column id="61" parent="43" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="62" parent="43" name="NAME">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="63" parent="43" name="PASSWORD">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <index id="64" parent="43" name="SYS_C0042407">
+      <name-surrogate>1</name-surrogate>
+      <object-id>140221</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns />
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="65" parent="43" name="SYS_C0042407">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0042407</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="66" parent="44" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="67" parent="44" name="TITLE">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="68" parent="44" name="OWNER_ID">
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <index id="69" parent="44" name="SYS_C0042409">
+      <name-surrogate>1</name-surrogate>
+      <object-id>140223</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns />
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="70" parent="44" name="SYS_C0042409">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0042409</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="71" parent="44" name="FK4ILN0S2GGBL08Y89R6MTDNOMW">
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>OWNER_ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.ACCOUNT.SYS_C0042407</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="72" parent="45" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="73" parent="45" name="CONTENT">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="74" parent="45" name="TITLE">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="75" parent="45" name="BLOG_ID">
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <index id="76" parent="45" name="SYS_C0042411">
+      <name-surrogate>1</name-surrogate>
+      <object-id>140225</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns />
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="77" parent="45" name="SYS_C0042411">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0042411</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="78" parent="45" name="FK7KUYHNJVVY5HV3UK6WBOKKXJ3">
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>BLOG_ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.BLOG.SYS_C0042409</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="79" parent="46" name="FABINVH_CODE">
+      <comment>INVOICE DOCUMENT CODE:  The unique identifier of an Invoice document.  The code may be system-generated.</comment>
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(8)|0</data-type>
+    </column>
+    <column id="80" parent="46" name="FABINVH_POHD_CODE">
+      <comment>ENCUMBRANCE CODE:  The Purchase Order or General Encumbrance document number which is referenced on the Invoice, if any.  Only populated for Regular or General Encumbrance Invoice types.</comment>
+      <data-type>VARCHAR2(8)|0</data-type>
+    </column>
+    <column id="81" parent="46" name="FABINVH_VEND_PIDM">
+      <comment>VENDOR IDENTIFICATION NUMBER:  The unique internal identification number of the Invoice vendor.</comment>
+      <data-type>NUMBER(8)|0</data-type>
+    </column>
+    <column id="82" parent="46" name="FABINVH_OPEN_PAID_IND">
+      <comment>OPEN PAID INDICATOR:  Indicates the payment status of the Invoice document.  Valid values are O if the Invoice is open and P if the Invoice is paid.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="83" parent="46" name="FABINVH_ACTIVITY_DATE">
+      <comment>ACTIVITY DATE:  The date when the information for this record on the table was entered or last updated.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="84" parent="46" name="FABINVH_USER_ID">
+      <comment>USER IDENTIFICATION:  The unique identification code of the user who last updated the Invoice document.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="85" parent="46" name="FABINVH_VEND_INV_CODE">
+      <comment>VENDOR INVOICE NUMBER:  The Invoice number as supplied by the vendor.</comment>
+      <data-type>VARCHAR2(15)|0</data-type>
+    </column>
+    <column id="86" parent="46" name="FABINVH_INVOICE_DATE">
+      <comment>INVOICE DATE:  A user-defined or system-generated Invoice date.  Basis of calculated Payment Due Date if terms/discount are used.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="87" parent="46" name="FABINVH_PMT_DUE_DATE">
+      <comment>PAYMENT DUE DATE:  The date an Invoice is due. Can be user-defined or calculated based on Invoice terms/discount.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="88" parent="46" name="FABINVH_TRANS_DATE">
+      <comment>TRANSACTION DATE:  The date the invoice document will be recorded in the ledgers.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="89" parent="46" name="FABINVH_CR_MEMO_IND">
+      <comment>CREDIT MEMO INDICATOR:  Indicates that the Invoice should be processed as a Credit Memo. If Y, the payment will be recorded as a Credit Memo.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="90" parent="46" name="FABINVH_ADJT_CODE">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="91" parent="46" name="FABINVH_ADJT_DATE">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="92" parent="46" name="FABINVH_1099_IND">
+      <comment>1099 INDICATOR:  Indicates that the Invoice includes taxable payments.  If Y, the payment will be recorded in the 1099 tables and accumulated for income tax reporting purposes.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="93" parent="46" name="FABINVH_1099_ID">
+      <comment>1099 IDENTIFICATION NUMBER: The taxpayer identification number (TIN) which uniquely identifies this vendor for Federal Income tax purposes.  For an individual, uses the social security number (SSN).</comment>
+      <data-type>VARCHAR2(9)|0</data-type>
+    </column>
+    <column id="94" parent="46" name="FABINVH_ITYP_SEQ_CODE">
+      <comment>INCOME TYPE SEQUENCE CODE:  The internal value which represents the user selected income type (as defined in table FTVITYP) for 1099 processing and reporting purposes.  Defaults from vendor record (as de
+fined on FTVVEND).</comment>
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <column id="95" parent="46" name="FABINVH_TEXT_IND">
+      <comment>TEXT INDICATOR:  Indicates that text exists for the record.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="96" parent="46" name="FABINVH_APPR_IND">
+      <comment>APPROVAL INDICATOR:  Indicates if the document has been approved.  If Y, the document has received final approval.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="97" parent="46" name="FABINVH_COMPLETE_IND">
+      <comment>COMPLETE INDICATOR:  Indicates if the document has been completed.  If Y, the document has received been completed.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="98" parent="46" name="FABINVH_DISC_CODE">
+      <comment>DISCOUNT CODE:  The discount code (as defined in table FTVDISC) to be used to define payment terms for the processing of the Invoice.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="99" parent="46" name="FABINVH_TRAT_CODE">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(3)|0</data-type>
+    </column>
+    <column id="100" parent="46" name="FABINVH_ADDL_CHRG_AMT">
+      <comment>ADDITIONAL CHARGE AMOUNT:  The total dollar value of any additional charges, e.g., freight associated with this Invoice.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="101" parent="46" name="FABINVH_HOLD_IND">
+      <comment>INVOICE HOLD INDICATOR:  Indicates that the Invoice record has been placed on hold to prevent payment to a vendor.  Indicator is set via FAAINVE or FAAPAYC form.  If Y, the document will be withheld from the
+payment process.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="102" parent="46" name="FABINVH_SUSP_IND">
+      <comment>SUSPENSE INDICATOR:  Indicates to the user that a document is being held in suspense due to missing or erroneous data content.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="103" parent="46" name="FABINVH_SUSP_IND_ADDL">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="104" parent="46" name="FABINVH_CANCEL_IND">
+      <comment>CANCELLATION INDICATOR:   Indicates if the Invoice has been cancelled.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="105" parent="46" name="FABINVH_CANCEL_DATE">
+      <comment>CANCELLATION DATE:  The date that the Invoice was cancelled.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="106" parent="46" name="FABINVH_POST_DATE">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="107" parent="46" name="FABINVH_ATYP_CODE">
+      <comment>INVOICE ADDRESS TYPE CODE: Used to identify the vendor address type to which the payment will be made. When using Check Vendor this value will be the address type for the vendor defined in FABINVH_VEND_CHECK
+_PIDM.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="108" parent="46" name="FABINVH_ATYP_SEQ_NUM">
+      <comment>INVOICE ADDRESS TYPE SEQUENCE NUMBER: Used to identify the vendor address type sequence to which the payment will be made. When using Check Vendor this value will be the address type sequence for the vend
+or defined in FABINVH_VEND_CHECK_PIDM.</comment>
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <column id="109" parent="46" name="FABINVH_GROUPING_IND">
+      <comment>GROUPING INDICATOR: Indicates the relationship between the number of invoices processed and the number of checks.  A value of 1 creates one check per invoice; a value of M combines many invoices on one ch
+eck.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="110" parent="46" name="FABINVH_BANK_CODE">
+      <comment>BANK CODE:  The Bank Code (as defined in table GXVBANK) to be used for processing the payment of the Invoice.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="111" parent="46" name="FABINVH_RUIV_IND">
+      <comment>RECURRING INVOICE INDICATOR:  Indicates that an invoice will be processed on a recurring basis on a specific schedule as defined in the form FAARUIV.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="112" parent="46" name="FABINVH_EDIT_DEFER_IND">
+      <comment>DEFER EDIT INDICATOR:  Indicates that document editing of the Invoice will be deferred until after completion.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="113" parent="46" name="FABINVH_OVERRIDE_TAX_AMT">
+      <comment>This column is not currently used by the Banner Finance application.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="114" parent="46" name="FABINVH_TGRP_CODE">
+      <comment>TAX GROUP CODE:  The tax group (as defined in table FTVTGRP) to be used for the processing of the Invoice.</comment>
+      <data-type>VARCHAR2(4)|0</data-type>
+    </column>
+    <column id="115" parent="46" name="FABINVH_SUBMISSION_NUMBER">
+      <comment>SUBMISSION NUMBER:  The internal submission number for the Invoice record.  Used for tracking recurring and re-established Invoice documents.</comment>
+      <data-type>NUMBER(3)|0</data-type>
+    </column>
+    <column id="116" parent="46" name="FABINVH_VEND_CHECK_PIDM">
+      <comment>CHECK VENDOR IDENTIFICATION NUMBER:  The unique internal identification number of the Invoice check vendor or disbursing agent when one is identified.</comment>
+      <data-type>NUMBER(8)|0</data-type>
+    </column>
+    <column id="117" parent="46" name="FABINVH_INVOICE_TYPE_IND">
+      <comment>INVOICE TYPE INDICATOR:  Indicates the type of Invoice. Valid values are D for Direct Pay/General Encumbrance or R for Regular.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="118" parent="46" name="FABINVH_CURR_CODE">
+      <comment>CURRENCY CODE:  The currency (as defined in table GTVCURR) to be used for the processing of the Invoice.</comment>
+      <data-type>VARCHAR2(4)|0</data-type>
+    </column>
+    <column id="119" parent="46" name="FABINVH_DISB_AGENT_IND">
+      <comment>DISBURSING AGENT INDICATOR: Indicates that the Invoice will use a Disbursing Agent for payment.  The Disbursing Agent is associated to a foreign currency on form GUACURR.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="120" parent="46" name="FABINVH_ATYP_CODE_VEND">
+      <comment>VENDOR ADDRESS TYPE CODE: Identifies the address type for the Invoice vendor defined in FABINVH_VEND_PIDM.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="121" parent="46" name="FABINVH_ATYP_SEQ_NUM_VEND">
+      <comment>VENDOR ADDRESS TYPE SEQUENCE NUMBER: Used to identify the address type sequence number for the Invoice vendor defined in FABINVH_VEND_PIDM.</comment>
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <column id="122" parent="46" name="FABINVH_NSF_ON_OFF_IND">
+      <comment>NSF PROCESSING INDICATOR: Indicates when non-sufficient funds checking will be done.  If Y checking will be performed at time of data entry.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="123" parent="46" name="FABINVH_SINGLE_ACCTG_IND">
+      <comment>DOCUMENT ACCOUNTING INDICATOR: Indicates the Accounting Level used for the Invoice.  Valid values are Y for Document Level Accounting and N for Commodity Level Accounting.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="124" parent="46" name="FABINVH_ONE_TIME_VEND_NAME">
+      <comment>ONE TIME VENDOR NAME:  Name for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(60)|0</data-type>
+    </column>
+    <column id="125" parent="46" name="FABINVH_ONE_TIME_VEND_ADDR1">
+      <comment>ONE TIME VENDOR ADDRESS LINE 1:  Address Line 1 for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="126" parent="46" name="FABINVH_ONE_TIME_VEND_ADDR2">
+      <comment>ONE TIME VENDOR ADDRESS LINE 2:  Address Line 2 for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="127" parent="46" name="FABINVH_ONE_TIME_VEND_ADDR3">
+      <comment>ONE TIME VENDOR ADDRESS LINE 3:  Address Line 3 for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="128" parent="46" name="FABINVH_ONE_TIME_VEND_CITY">
+      <comment>ONE TIME VENDOR CITY:  City for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(50)|0</data-type>
+    </column>
+    <column id="129" parent="46" name="FABINVH_ONE_TIME_VEND_STATE">
+      <comment>ONE TIME VENDOR STATE:  State or Province for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(3)|0</data-type>
+    </column>
+    <column id="130" parent="46" name="FABINVH_ONE_TIME_VEND_ZIP">
+      <comment>ONE TIME VENDOR POSTAL CODE:  Zip or Postal Code for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="131" parent="46" name="FABINVH_ONE_TIME_VEND_NATN">
+      <comment>ONE TIME VENDOR NATION:  Nation for use with One Time Vendor</comment>
+      <data-type>VARCHAR2(5)|0</data-type>
+    </column>
+    <column id="132" parent="46" name="FABINVH_DELIVERY_POINT">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <column id="133" parent="46" name="FABINVH_CORRECTION_DIGIT">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <column id="134" parent="46" name="FABINVH_CARRIER_ROUTE">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(4)|0</data-type>
+    </column>
+    <column id="135" parent="46" name="FABINVH_RUIV_INSTALLMENT_IND">
+      <comment>RECURRING PAYABLE INSTALLMENT INDICATOR: Indicates whether the Invoice when set up as recurring payment is an installment. It is used by the fixed asset module to determine the capitalization amou
+nt.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="136" parent="46" name="FABINVH_MULTIPLE_INV_IND">
+      <comment>MULTIPLE VENDOR INVOICE INDICATOR:  Indicates if multiple vendor invoices are associated with the Banner Invoice document.  If Y, then additional information is stored in the table FARVINV.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="137" parent="46" name="FABINVH_PHONE_AREA">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(6)|0</data-type>
+    </column>
+    <column id="138" parent="46" name="FABINVH_PHONE_NUMBER">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(12)|0</data-type>
+    </column>
+    <column id="139" parent="46" name="FABINVH_PHONE_EXT">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="140" parent="46" name="FABINVH_EMAIL_ADDR">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(128)|0</data-type>
+    </column>
+    <column id="141" parent="46" name="FABINVH_FAX_AREA">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(6)|0</data-type>
+    </column>
+    <column id="142" parent="46" name="FABINVH_FAX_NUMBER">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(12)|0</data-type>
+    </column>
+    <column id="143" parent="46" name="FABINVH_FAX_EXT">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="144" parent="46" name="FABINVH_CANCEL_CODE">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(4)|0</data-type>
+    </column>
+    <column id="145" parent="46" name="FABINVH_ATTENTION_TO">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(35)|0</data-type>
+    </column>
+    <column id="146" parent="46" name="FABINVH_VENDOR_CONTACT">
+      <comment>This column is not currently used by the Banner Finance application</comment>
+      <data-type>VARCHAR2(35)|0</data-type>
+    </column>
+    <column id="147" parent="46" name="FABINVH_INVD_RE_ESTABLISH_IND">
+      <comment>INVOICE RE ESTABLISH INDICATOR:  Indicates whether the Invoice is to be re-established at invoice cancellation time.  Indicator is set based on population of Re-establish Indicator on FAAINVD.  I
+ndicator is cleared after invoice cancellation is posted.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="148" parent="46" name="FABINVH_ACH_OVERRIDE_IND">
+      <comment>ACH OVER RIDE INDICATOR:  Indicates if the active ACH status of the vendor as defined in form GXADIRD should be overridden when processing payment for this Invoice.  If Y, the Invoice payment will be
+made via check.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="149" parent="46" name="FABINVH_ORIGIN_CODE">
+      <comment>INVOICE ORIGINATION CODE:  Identifies the source of the Invoice document.</comment>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="150" parent="46" name="FABINVH_MATCH_REQUIRED">
+      <comment>MATCHING REQUIRED INDICATOR: Indicates if this Invoice must be forwarded through the matching process.  Valid values are N for no matching required, Y for matching required, and U if the matching requir
+ement is unspecified/undetermined.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+      <default-expression>'U'</default-expression>
+    </column>
+    <column id="151" parent="46" name="FABINVH_CREATE_USER">
+      <comment>RECORD CREATE USER: This field contains the Banner User ID which created the new record.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="152" parent="46" name="FABINVH_CREATE_DATE">
+      <comment>RECORD CREATE DATE: This field contains the date on which the new record was created.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="153" parent="46" name="FABINVH_COMPLETE_USER">
+      <comment>INVOICE COMPLETE USER: This field contains the Banner User ID of the user who completed this invoice and forwarded it to the next process.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="154" parent="46" name="FABINVH_COMPLETE_DATE">
+      <comment>INVOICE COMPLETE DATE: The date on which this invoice was completed and forwarded to the next process.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="155" parent="46" name="FABINVH_DATA_ORIGIN">
+      <comment>DATA SOURCE: Source system that generated the data.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="156" parent="46" name="FABINVH_CREATE_SOURCE">
+      <comment>CREATE SOURCE: Source system that created the new record.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="157" parent="46" name="FABINVH_CANCEL_USER">
+      <comment>INVOICE CANCEL USER: This field contains the Banner User ID of the user who cancelled this invoice and forwarded it to the next process.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="158" parent="46" name="FABINVH_CANCEL_ACTIVITY_DATE">
+      <comment>INVOICE CANCEL ACTIVITY DATE: The date on which this invoice was cancelled and forwarded to the next process.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="159" parent="46" name="FABINVH_CTRY_CODE_PHONE">
+      <comment>COUNTRY CODE TELEPHONE: Code designating the region or country.</comment>
+      <data-type>VARCHAR2(4)|0</data-type>
+    </column>
+    <column id="160" parent="46" name="FABINVH_CTRY_CODE_FAX">
+      <comment>COUNTRY CODE FAX: Code designating the region or country.</comment>
+      <data-type>VARCHAR2(4)|0</data-type>
+    </column>
+    <column id="161" parent="46" name="FABINVH_ONE_TIME_HOUSE_NUMBER">
+      <comment>ONE TIME VENDOR HOUSE NUMBER: Building or lot number on a street or in an area for One Time Vendor.</comment>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="162" parent="46" name="FABINVH_ONE_TIME_VEND_ADDR4">
+      <comment>ONE TIME VENDOR ADDRESS LINE 4: Address Line 4 for One Time Vendor.</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="163" parent="46" name="FABINVH_ACHT_CODE">
+      <comment>INVOICE ACH TRANSACTION TYPE:  ACH Transaction Type code required for International ACH Transaction (IAT) direct deposits.</comment>
+      <data-type>VARCHAR2(8)|0</data-type>
+    </column>
+    <column id="164" parent="46" name="FABINVH_VEND_HOLD_OVRD_IND">
+      <comment>VENDOR HOLD OVERRIDE:  Indicates an authorized user has approved an invoice for payment when the vendor has a payment hold.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="165" parent="46" name="FABINVH_VEND_HOLD_OVRD_USER">
+      <comment>VENDOR HOLD OVERRIDE USER:  The Oracle ID of the last user who added the Vendor Hold Override.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="166" parent="46" name="FABINVH_SURROGATE_ID">
+      <comment>SURROGATE ID: Immutable unique key</comment>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="167" parent="46" name="FABINVH_VERSION">
+      <comment>VERSION: Optimistic lock token.</comment>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="168" parent="46" name="FABINVH_VPDI_CODE">
+      <comment>VPDI CODE: Multi-entity processing code.</comment>
+      <data-type>VARCHAR2(6)|0</data-type>
+    </column>
+    <index id="169" parent="46" name="PK_FABINVH">
+      <object-id>132757</object-id>
+      <created-timestamp>2016-05-03.11:05:14</created-timestamp>
+      <modified-timestamp>2016-05-03.11:05:14</modified-timestamp>
+      <columns>FABINVH_CODE</columns>
+      <desc-columns />
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="170" parent="46" name="FABINVH_PO_INDEX">
+      <object-id>132755</object-id>
+      <created-timestamp>2016-05-03.11:05:14</created-timestamp>
+      <modified-timestamp>2016-05-03.11:05:14</modified-timestamp>
+      <columns>FABINVH_POHD_CODE</columns>
+      <desc-columns />
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="171" parent="46" name="FABINVH_VEND_INDEX">
+      <object-id>132756</object-id>
+      <created-timestamp>2016-05-03.11:05:14</created-timestamp>
+      <modified-timestamp>2016-05-03.11:05:14</modified-timestamp>
+      <columns>FABINVH_VEND_PIDM</columns>
+      <desc-columns />
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="172" parent="46" name="PK_FABINVH">
+      <modified-timestamp>2016-05-03.11:05:14</modified-timestamp>
+      <columns>FABINVH_CODE</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PK_FABINVH</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="173" parent="47" name="FATCKDT_VEND_PIDM">
+      <comment>VENDOR PERSONAL IDENTIFCATION MASTER:  The unique identification master of a    vendor.</comment>
+      <data-type>NUMBER(8)|0</data-type>
+    </column>
+    <column id="174" parent="47" name="FATCKDT_ADDR_TYPE">
+      <comment>ADDRESS TYPE:  The user-defined contact address which is associated with a      specific record.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="175" parent="47" name="FATCKDT_ADDR_SEQNO">
+      <comment>ADDRESS SEQUENCE NUMBER:  The user-defined sequence number associated with the  address.</comment>
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <column id="176" parent="47" name="FATCKDT_CHECK_NUM">
+      <comment>CHECK NUMBER:  The pre-printed check number.</comment>
+      <data-type>VARCHAR2(8)|0</data-type>
+    </column>
+    <column id="177" parent="47" name="FATCKDT_CHECK_DATE">
+      <comment>CHECK DATE:  The date of the issue for a check.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="178" parent="47" name="FATCKDT_BANK_CODE">
+      <comment>BANK CODE:  The user-defined value which is used for identification purposes on all cash transactions.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="179" parent="47" name="FATCKDT_INV_CODE">
+      <comment>DOCUMENT INVENTORY CODE:  The unique number of the document being updated.</comment>
+      <data-type>VARCHAR2(8)|0</data-type>
+    </column>
+    <column id="180" parent="47" name="FATCKDT_ITEM">
+      <comment>COMMODITY ITEM NUMBER:  The literal commodity or goods description associated   with processing record.  The unique sequence number associated with an item on  the commodity record.</comment>
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="181" parent="47" name="FATCKDT_SEQ_NUM">
+      <comment>OPERATING LEDGER SEQUENCE NUMBER:  This number represents a predefined value    within the BANNER Finance which is used for operating ledger classification     and reporting purposes.</comment>
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="182" parent="47" name="FATCKDT_FSYR_CODE">
+      <comment>FISCAL YEAR CODE:  A user-defined code to identify a fiscal year.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="183" parent="47" name="FATCKDT_PERIOD">
+      <comment>PERIOD:  Refers to an accounting period with a user-defined fiscal year.        Expressed as a numeric value 01, 06, 12, 13.</comment>
+      <data-type>VARCHAR2(2)|0</data-type>
+    </column>
+    <column id="184" parent="47" name="FATCKDT_GROSS_AMT">
+      <comment>GROSS AMOUNT:  The gross number of dollars associated with the invoices         included in the check.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="185" parent="47" name="FATCKDT_TAX_AMT">
+      <comment>TAX AMOUNT:  The amount of tax computed or entered for a document.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="186" parent="47" name="FATCKDT_DISC_AMT">
+      <comment>DISCOUNT AMOUNT:  The value of the discount code established on the form        FTVDISC.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="187" parent="47" name="FATCKDT_ADDL_AMT">
+      <comment>ADDITIONAL AMOUNT:  The dollar value of any additional charges associated       with this invoice.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="188" parent="47" name="FATCKDT_FED_WHOLD_AMT">
+      <comment>FEDERAL WITHHOLDING AMOUNT:  The amount withheld from a 1099 disbursement       for remittance to the government.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="189" parent="47" name="FATCKDT_ST_WHOLD_AMT">
+      <comment>STATE WITHHOLDING AMOUNT:  The amount withheld for state taxes from an          entity's 1099 payment.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="190" parent="47" name="FATCKDT_NET_AMT">
+      <comment>NET AMOUNT:  The net amount of an invoice.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="191" parent="47" name="FATCKDT_CR_MEMO_IND">
+      <comment>CREDIT MEMO INDICATOR:  This indicator identifies credit memo processing.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="192" parent="47" name="FATCKDT_CHECK_TYPE_IND">
+      <comment>CHECK TYPE INDICATOR:  An indicator establishing the type of check produced.    M-manual, B-batch, and O-online.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="193" parent="47" name="FATCKDT_CANCEL_DATE">
+      <comment>CANCEL INDICATOR:  The indicator associated with the check cancellation         processing.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="194" parent="47" name="FATCKDT_GROUPING_IND">
+      <comment>GROUPING INDICATOR:  Indicates the relationship between the number of invoices  processed and the number of checks.  A value of '1' will create one check per   invoice whereas a value of 'M' will combine many invoices on one check.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="195" parent="47" name="FATCKDT_VEND_CHECK_PIDM">
+      <comment>VENDOR CHECK PERSONAL IDENTIFICATION MASTER:  The unique personal               identification master of a check vendor.</comment>
+      <data-type>NUMBER(8)|0</data-type>
+    </column>
+    <column id="196" parent="47" name="FATCKDT_CONVERT_GROSS_AMT">
+      <comment>CONVERTED GROSS AMOUNT: The base gross amount calculated for this detail record. Used when a currency code is established at the invoice header record.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="197" parent="47" name="FATCKDT_CONVERT_TAX_AMT">
+      <comment>CONVERTED TAX AMOUNT: The base tax amount calculated for this detail record. Used when a currency code is established at the invoice header record.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="198" parent="47" name="FATCKDT_CONVERT_DISC_AMT">
+      <comment>CONVERTED DISCOUNT AMOUNT: The base discount amount calculated for this detail record. Used when a currency code is established at the invoice header record.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="199" parent="47" name="FATCKDT_CONVERT_ADDL_AMT">
+      <comment>CONVERTED ADDITIONAL CHARGES AMOUNT: The base additional charges amount calculated for this detail record. Used when a currency code is established at the invoice header record.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="200" parent="47" name="FATCKDT_CONVERT_NET_AMT">
+      <comment>CONVERTED NET AMOUNT: The base net amount calculated for this detail record. Used when a currency code is established at the invoice header record.</comment>
+      <data-type>NUMBER(17,2)|0</data-type>
+    </column>
+    <column id="201" parent="47" name="FATCKDT_ONE_TIME_VEND_NAME">
+      <comment>One Time Vendor name for One Time Vendors</comment>
+      <data-type>VARCHAR2(60)|0</data-type>
+    </column>
+    <column id="202" parent="47" name="FATCKDT_ONE_TIME_VEND_ADDR1">
+      <comment>One Time Vendor address line one for One Time Vendors</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="203" parent="47" name="FATCKDT_ONE_TIME_VEND_ADDR2">
+      <comment>One Time Vendor address line two for One Time Vendors</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="204" parent="47" name="FATCKDT_ONE_TIME_VEND_ADDR3">
+      <comment>One Time Vendor address line three for One Time Vendors</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="205" parent="47" name="FATCKDT_ONE_TIME_VEND_CITY">
+      <comment>One Time Vendor city for One Time Vendors</comment>
+      <data-type>VARCHAR2(50)|0</data-type>
+    </column>
+    <column id="206" parent="47" name="FATCKDT_ONE_TIME_VEND_STATE">
+      <comment>One Time Vendor state for One Time Vendors</comment>
+      <data-type>VARCHAR2(3)|0</data-type>
+    </column>
+    <column id="207" parent="47" name="FATCKDT_ONE_TIME_VEND_ZIP">
+      <comment>One Time Vendor zip code for One Time Vendors</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="208" parent="47" name="FATCKDT_ONE_TIME_VEND_NATN">
+      <comment>One Time Vendor nation for One Time Vendors</comment>
+      <data-type>VARCHAR2(5)|0</data-type>
+    </column>
+    <column id="209" parent="47" name="FATCKDT_RUIV_IND">
+      <comment>Recurring Invoice Indicator: Indicates that an invoice will be processed on a recurring basis on a specific schedule.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="210" parent="47" name="FATCKDT_DELIVERY_POINT">
+      <comment>DELIVERY POINT: This field indicates the delivery point associated with the address.</comment>
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <column id="211" parent="47" name="FATCKDT_CORRECTION_DIGIT">
+      <comment>CORRECTION DIGIT: This field indicates the correction digit associated with the address.</comment>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <column id="212" parent="47" name="FATCKDT_CARRIER_ROUTE">
+      <comment>CARRIER ROUTE: This field indicates the carrier route associated with the address.</comment>
+      <data-type>VARCHAR2(4)|0</data-type>
+    </column>
+    <column id="213" parent="47" name="FATCKDT_PAYMT_TYPE_IND">
+      <comment>PAYMENT TYPE INDICATOR: The kind of payment being made to the vendor - (C)heck or (D)irect Deposit.</comment>
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="214" parent="47" name="FATCKDT_ONE_TIME_HOUSE_NUMBER">
+      <comment>ONE TIME VENDOR HOUSE NUMBER: Building or lot number on a street or in an area for One Time Vendor.</comment>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="215" parent="47" name="FATCKDT_ONE_TIME_VEND_ADDR4">
+      <comment>ONE TIME VENDOR ADDRESS LINE 4: Address Line 4 for One Time Vendor.</comment>
+      <data-type>VARCHAR2(75)|0</data-type>
+    </column>
+    <column id="216" parent="47" name="FATCKDT_SURROGATE_ID">
+      <comment>SURROGATE ID: Immutable unique key</comment>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="217" parent="47" name="FATCKDT_VERSION">
+      <comment>VERSION: Optimistic lock token.</comment>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="218" parent="47" name="FATCKDT_USER_ID">
+      <comment>USER ID: The user ID of the person who inserted or last updated this record.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="219" parent="47" name="FATCKDT_DATA_ORIGIN">
+      <comment>DATA ORIGIN: Source system that created or updated the data.</comment>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="220" parent="47" name="FATCKDT_ACTIVITY_DATE">
+      <comment>ACTIVITY DATE: The date that information in this record was entered or last updated.</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="221" parent="47" name="FATCKDT_VPDI_CODE">
+      <comment>VPDI CODE: Multi-entity processing code.</comment>
+      <data-type>VARCHAR2(6)|0</data-type>
+    </column>
+    <column id="222" parent="48" name="FATCKIN_INVH_CODE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="223" parent="48" name="FATCKIN_CURR_CODE">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="224" parent="48" name="FATCKIN_GROSS_AMT">
+      <data-type>NUMBER(19,2)|0</data-type>
+    </column>
+    <column id="225" parent="48" name="FATCKIN_NET_AMT">
+      <data-type>NUMBER(19,2)|0</data-type>
+    </column>
+    <column id="226" parent="48" name="FATCKIN_VEND_FULL_NAME">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="227" parent="48" name="FATCKIN_VEND_INV">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <index id="228" parent="48" name="SYS_C0042413">
+      <name-surrogate>1</name-surrogate>
+      <object-id>140227</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>FATCKIN_INVH_CODE</columns>
+      <desc-columns />
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="229" parent="48" name="SYS_C0042413">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>FATCKIN_INVH_CODE</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0042413</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="230" parent="49" name="FYBCHKS_INVH_CODE">
+      <comment>INVOICE DOCUMENT CODE:The unique identifier of an Invoice document.  The code may be system-generated.</comment>
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(8)|0</data-type>
+    </column>
+    <column id="231" parent="49" name="FYBCHKS_USER_ID">
+      <comment>USER IDENTIFICATION:The unique identification code of the user who last updated the Invoice document.</comment>
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="232" parent="49" name="FYBCHKS_ACTIVITY_DATE">
+      <comment>ACTIVITY DATE:The date when the information for this record on the table was entered or last updated.</comment>
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="233" parent="49" name="FYBCHKS_SURROGATE_ID">
+      <comment>SURROGATE ID:Immutable unique key</comment>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="234" parent="49" name="FYBCHKS_VERSION">
+      <comment>VERSION:Optimistic lock token.</comment>
+      <data-type>NUMBER(19)|0</data-type>
+    </column>
+    <column id="235" parent="49" name="FYBCHKS_VPDI_CODE">
+      <comment>VPDI CODE: Multi-entity processing code.</comment>
+      <data-type>VARCHAR2(6)|0</data-type>
+    </column>
+    <column id="236" parent="49" name="FYBCHKS_DESCRIPTION">
+      <comment>NOTES FOR API AND PACKAGE FUNCTIONS RELATING TO DATA VALIDATION.</comment>
+      <data-type>VARCHAR2(300)|0</data-type>
+    </column>
+    <index id="237" parent="49" name="PK_FYBCHKS">
+      <object-id>133421</object-id>
+      <created-timestamp>2016-05-11.08:40:06</created-timestamp>
+      <modified-timestamp>2016-05-11.08:40:06</modified-timestamp>
+      <columns>FYBCHKS_INVH_CODE</columns>
+      <desc-columns />
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="238" parent="49" name="PK_FYBCHKS">
+      <modified-timestamp>2016-05-11.08:40:14</modified-timestamp>
+      <columns>FYBCHKS_INVH_CODE</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PK_FYBCHKS</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="239" parent="50" name="FYBCHKS_INVH_CODE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="240" parent="50" name="FYBCHKS_ACTIVITY_DATE">
+      <data-type>TIMESTAMP(6)|0</data-type>
+    </column>
+    <column id="241" parent="50" name="FYBCHKS_DESCRIPTION">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="242" parent="50" name="FYBCHKS_SURROGATE_ID">
+      <data-type>NUMBER(19,2)|0</data-type>
+    </column>
+    <column id="243" parent="50" name="FYBCHKS_USER_ID">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="244" parent="50" name="FYBCHKS_VERSION">
+      <data-type>NUMBER(19,2)|0</data-type>
+    </column>
+    <column id="245" parent="50" name="FYBCHKS_VPDI_CODE">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="246" parent="50" name="FATCKIN_FATCKIN_INVH_CODE">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <index id="247" parent="50" name="SYS_C0042415">
+      <name-surrogate>1</name-surrogate>
+      <object-id>140229</object-id>
+      <created-timestamp>2016-07-26.11:04:19</created-timestamp>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>FYBCHKS_INVH_CODE</columns>
+      <desc-columns />
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="248" parent="50" name="SYS_C0042415">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>FYBCHKS_INVH_CODE</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0042415</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="249" parent="50" name="FKHT4JLNN88UPAS15I5M20OSG7Q">
+      <modified-timestamp>2016-07-26.11:04:19</modified-timestamp>
+      <columns>FATCKIN_FATCKIN_INVH_CODE</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.FATCKIN.SYS_C0042413</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <argument id="250" parent="51" name="P_USERID">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="251" parent="51" name="FRESULT">
+      <direction>OUT</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="252" parent="52" name="P_USERID">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="253" parent="52" name="FRESULT">
+      <direction>OUT</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="254" parent="54" name="P_USERID">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="255" parent="54" name="FRESULT">
+      <direction>OUT</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="256" parent="55" name="P_USERID">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="257" parent="55" name="P_DESCRIPTION">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="258" parent="55" name="P_VENDOR">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="259" parent="55" name="FRESULT">
+      <direction>OUT</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <body id="260" parent="56" name="IDTYPE" />
+    <object-attribute id="261" parent="56" name="ID">
+      <type>VARCHAR2|0</type>
+    </object-attribute>
+    <body id="262" parent="59" name="ORACLEDB_TESTPACK">
+      <object-id>132772</object-id>
+      <created-timestamp>2016-05-04.11:10:47</created-timestamp>
+      <modified-timestamp>2016-05-04.11:10:48</modified-timestamp>
+    </body>
+    <routine id="263" parent="59" name="TEST">
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <body id="264" parent="60" name="POPULATEMYTABLE">
+      <object-id>133320</object-id>
+      <created-timestamp>2016-05-10.10:45:46</created-timestamp>
+      <modified-timestamp>2016-05-10.12:33:49</modified-timestamp>
+      <invalid>1</invalid>
+    </body>
+    <routine id="265" parent="60" name="GETMYTABLEBYIDS">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <argument id="266" parent="263">
+      <direction>RETURN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="267" parent="263" name="STRINGS">
+      <direction>IN</direction>
+      <data-type>ORACLEDB_TESTPACK|0</data-type>
+    </argument>
+    <argument id="268" parent="263" name="NUMBERS">
+      <direction>IN</direction>
+      <data-type>ORACLEDB_TESTPACK|0</data-type>
+    </argument>
+    <argument id="269" parent="265" name="P_MYIDLIST">
+      <direction>IN</direction>
+      <data-type>POPULATEMYTABLE|0</data-type>
+    </argument>
+    <argument id="270" parent="265" name="P_OUTREFCURSOR">
+      <direction>OUT</direction>
+      <data-type>REF CURSOR|0</data-type>
+    </argument>
+  </database-model>
+</dataSource>

@@ -1,0 +1,1 @@
+Scott says this is text saved in WEB-ING\jsp\view.jsp as configured in mvv-dispatcher-servlet.xml
