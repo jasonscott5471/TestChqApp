@@ -13,7 +13,7 @@
         http://www.springframework.org/schema/context/spring-context-4.2.xsd
         http://www.springframework.org/schema/security
         http://www.springframework.org/schema/security/spring-security.xsd">
-    <context:component-scan base-package="tutorial.rest.mvc"/>
+    <context:component-scan base-package="cheque.rest.mvc"/>
 
     
     <mvc:resources mapping="/ng-boilerplate/**" location="/ng-boilerplate/build/"/>
@@ -24,12 +24,12 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-   <!--
+   <!-- added Oct 3, 2016   access="ROLE_DUMMY"/> -->
     <security:global-method-security pre-post-annotations="enabled">
-        <security:protect-pointcut expression="execution(* tutorial.rest.mvc.*.*(..))"
+        <security:protect-pointcut expression="execution(* cheque.rest.mvc.*.*(..))"
                                    access="ROLE_DUMMY"/>
     </security:global-method-security>
 
-    -->
+
 
    </beans>
